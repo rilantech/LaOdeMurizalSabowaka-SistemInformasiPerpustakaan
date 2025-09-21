@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:background="@drawable/strokemenuberanda" android:layout_width="match_parent" android:layout_height="550dp">
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:rowCount="1" android:columnCount="1" android:columnOrderPreserved="false" android:alignmentMode="alignMargins">
+            <androidx.cardview.widget.CardView android:id="@+id/absen_pengunjung" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/biru" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/gambarwisata1" android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/iconabsensipengunjung"/>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Absen Pengunjung"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/data_peminjaman_buku" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/biru" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/iconpeminjamanbuku"/>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Data Peminjaman Buku"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/data_pengembalian_buku" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/biru" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/iconpengembalianbuku"/>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Data Pengembalian Buku"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/data_buku" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/biru" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/iconbuku"/>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Data Buku"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/tentang_aplikasi" android:layout_width="0dp" android:layout_height="80dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/biru" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/icontentangaplikasi"/>
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Tentang Aplikasi"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </FrameLayout>
+    <TextView android:textSize="20dp" android:textColor="@color/black" android:gravity="center" android:id="@+id/copyright" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="©Copyrigth 2024"/>
+</LinearLayout>

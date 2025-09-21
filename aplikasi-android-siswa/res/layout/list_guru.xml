@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:background="#7cb8e8" android:layout_width="80dp" android:layout_height="100dp">
+            <TextView android:textSize="35dp" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" android:textAlignment="center"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@+id/gambar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Gambar1.jpg"/>
+            <TextView android:textStyle="bold" android:id="@+id/nama" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="rizal"/>
+            <TextView android:textStyle="bold" android:id="@+id/email" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="rizal@gmail.com"/>
+            <TextView android:textStyle="bold" android:id="@+id/nip" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="20650052"/>
+            <TextView android:textStyle="bold" android:id="@+id/alamat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ndauli"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

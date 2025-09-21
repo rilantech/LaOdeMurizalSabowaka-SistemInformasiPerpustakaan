@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/sampul" android:layout_width="100dp" android:layout_height="85dp" android:src="@drawable/iconpeminjamanbuku"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Kode Buku"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text=":"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/kode_buku" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="kode buku"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Judul"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text=":"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/judul" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="judul"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Nama Pengarang"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text=":"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/nama_pengarang" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="judul"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Penerbit / Tahun Terbit "/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text=":"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/penerbit_atau_tahun_terbit" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="penerbit/tahunterbit"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Letak Buku"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text=":"/>
+                <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/letak_buku" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="letak_buku"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

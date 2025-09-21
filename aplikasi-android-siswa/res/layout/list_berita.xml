@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/gambar" android:layout_width="match_parent" android:layout_height="300dp" android:layout_marginTop="16dp" sweet:srcCompat="@drawable/kemarau"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/judul" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kekeringan Air Di Desa Wajo Gu"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/isiberita" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="On the Insert tab, the galleries include items that are designed to coordinate with the overall look of your document. You can use these galleries to insert tables, headers, footers, lists, cover pages, and other document building blocks. When you create pictures, charts, or diagrams, they also coordinate with your current document look.  " android:textAlignment="textStart"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/blue_btn_bg_color" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="20dp" android:textStyle="bold" android:id="@+id/tvToolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Informasi Wisata"/>
+    </androidx.appcompat.widget.Toolbar>
+    <com.denzcoskun.imageslider.ImageSlider android:id="@+id/image_slider" android:layout_width="match_parent" android:layout_height="250dp" sweet:iss_auto_cycle="true" sweet:iss_delay="1000" sweet:iss_no_dots="true" sweet:iss_period="3000" sweet:iss_text_align="CENTER" sweet:iss_title_background="@color/tranparan"/>
+    <TextView android:textSize="25dp" android:id="@+id/namawisata" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="nama wisata"/>
+    <TextView android:id="@+id/deskripsiwisata" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="deskripsi wisata"/>
+    <Button android:textSize="20dp" android:textColor="@color/white" android:id="@+id/tombollokasi" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="lokasi"/>
+</LinearLayout>

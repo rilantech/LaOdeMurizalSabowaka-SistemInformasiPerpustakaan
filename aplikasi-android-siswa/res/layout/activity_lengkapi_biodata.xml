@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/biru" android:padding="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="20dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="Silahkan Lengkap Biodata Anda!" android:textAlignment="center"/>
+    <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Foto Profil"/>
+    <ImageView android:id="@+id/imageView" android:background="@drawable/rounded_kotak_login" android:layout_width="match_parent" android:layout_height="300dp" android:src="@drawable/ikonprofile" android:scaleType="fitXY" android:tooltipText="true"/>
+    <TextView android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Nama"/>
+    <EditText android:id="@+id/nama" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Masukan Nama"/>
+    <Button android:textSize="20dp" android:textColor="@color/white" android:layout_gravity="center" android:id="@+id/simpan" android:background="@drawable/lengkungantombol" android:layout_width="300dp" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Lanjut" android:drawableRight="@drawable/tandapanah" android:textAllCaps="false" android:backgroundTint="#ffeb3b"/>
+</LinearLayout>

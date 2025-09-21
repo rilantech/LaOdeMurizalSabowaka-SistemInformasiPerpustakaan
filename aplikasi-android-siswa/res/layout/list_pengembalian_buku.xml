@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="3dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="10sp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/nomor" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:text="No."/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Kode Buku"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/kode_buku" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="110dp" android:text="kode buku"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="200dp" android:text="Mulai Pinjam"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/mulai_pinjam" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="280dp" android:text="mulai_pinjam"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Judul"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/judul" android:layout_width="50dp" android:layout_height="wrap_content" android:layout_marginLeft="110dp" android:text="judul"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="200dp" android:text="Batas Pinjam"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/batas_pinjam" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="280dp" android:text="mulai_pinjam"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Nama Pengarang"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="100dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/nama_pengarang" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="110dp" android:text="judul"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="200dp" android:text="Waktu Kembali"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="270dp" android:text=":"/>
+        <TextView android:textSize="10dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/waktu_kembali" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="280dp" android:text="waktu_kembali"/>
+    </RelativeLayout>
+</LinearLayout>

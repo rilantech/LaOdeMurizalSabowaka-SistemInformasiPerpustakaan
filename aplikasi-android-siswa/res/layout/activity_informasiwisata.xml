@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="25dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Informasi"/>
+        </androidx.appcompat.widget.Toolbar>
+        <ImageView android:id="@+id/gambar" android:layout_width="match_parent" android:layout_height="200dp" android:src="@drawable/nirwana2" android:scaleType="fitXY"/>
+        <TextView android:textSize="23dp" android:textStyle="bold" android:id="@+id/nama_wisata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Pantai Nirwana"/>
+        <RatingBar android:id="@+id/rattingbar1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-30dp" android:stepSize="0.5" android:scaleX="0.5" android:scaleY="0.5" style="?android:attr/ratingBarStyleIndicator"/>
+        <TextView android:textSize="17dp" android:textStyle="bold" android:id="@+id/deskripsi_wisata" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="\9\9TOURISMAR adalah sebuah aplikasi Augmented Reality untuk mempromosikan wisata alam dan budaya di sejumlah objek wisata Pulau Buton. Aplikasi ini ditujukan untuk wisatawan yang ingin mengetahui sejumlah objek wisata di Pulau Buton. " android:justificationMode="1"/>
+        <TextView android:textSize="15dp" android:textStyle="bold" android:id="@+id/info_lanjut" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="Informasi Lebih Lanjut &gt;"/>
+        <Button android:textSize="15dp" android:id="@+id/lihatjadwal" android:background="@drawable/jadwal" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Senin | 07.00-17.00 Wita" android:textAllCaps="false" android:textAlignment="textStart"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ikon_uang" android:layout_width="40dp" android:layout_height="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:src="@drawable/dollar"/>
+            <TextView android:textSize="20dp" android:textStyle="bold" android:id="@+id/biaya_masuk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="5.000"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <Button android:textSize="20dp" android:textColor="@color/white" android:id="@+id/tombol_lokasi" android:background="@drawable/lengkungantombol" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Lokasi" android:textAllCaps="false" android:backgroundTint="@color/biru"/>
+            <Button android:textSize="20dp" android:textColor="@color/white" android:id="@+id/tombol_3D" android:background="@drawable/lengkungantombol" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="140dp" android:text="3D" android:textAllCaps="false" android:backgroundTint="@color/biru"/>
+        </LinearLayout>
+        <TextView android:id="@+id/keterangan_rating" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Rating Wisata :"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RatingBar android:id="@+id/rattingbar2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="0.6" android:scaleY="0.6"/>
+            <Button android:textSize="20dp" android:textColor="@color/white" android:id="@+id/kirim_rating" android:background="@drawable/lengkungantombol" android:visibility="gone" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Kirim" android:textAllCaps="false" android:backgroundTint="@color/biru"/>
+        </LinearLayout>
+        <TextView android:id="@+id/keterangan_komentar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tambah Komentar :"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:id="@+id/isi_komentar" android:visibility="gone" android:layout_width="250dp" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/kirim_komentar" android:visibility="gone" android:layout_width="100dp" android:layout_height="wrap_content" android:src="@drawable/icon_kirim"/>
+        </LinearLayout>
+        <ListView android:id="@+id/list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="500dp" android:layout_marginTop="20dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+            <ImageView android:id="@+id/ikonyoutube" android:visibility="gone" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:src="@drawable/iconyt"/>
+            <ImageView android:id="@+id/ikoninstagram" android:visibility="gone" android:layout_width="50dp" android:layout_height="25dp" android:layout_marginLeft="70dp" android:layout_marginTop="10dp" android:src="@drawable/iconinstagram"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+            <TextView android:id="@+id/youtube" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Wisata Pulau Buton"/>
+            <TextView android:id="@+id/instagram" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Wisata Pulau Buton"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

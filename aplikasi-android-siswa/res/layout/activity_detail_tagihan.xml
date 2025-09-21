@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="#0f8bdf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Detail Tagihan"/>
+    </androidx.appcompat.widget.Toolbar>
+    <RelativeLayout android:background="#dfdfdfdf" android:layout_width="match_parent" android:layout_height="1dp" android:elevation="4dp"/>
+    <LinearLayout android:orientation="vertical" android:padding="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="No. Pelanggan"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvNopelanggan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="12345"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Nama"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvNama" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="rizal"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="No.HP"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvNohp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="082259394735"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Tanggal Bayar"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvTanggalbayar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="17 Mei 2024"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Bulan"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvBulan" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="Mei 2024"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Pemakaian Air"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvPemakaianair" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="10 "/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="Jumlah Bayar"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="109dp" android:text=":"/>
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/tvJumlahbayar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="130dp" android:text="Ndauli"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tentang"/>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="10dp" android:src="@drawable/ikon"/>
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tourism AR" android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="17dp" android:textStyle="bold" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="\9\9\9 TOURISMAR adalah sebuah aplikasi Augmented Reality untuk mempromosikan wisata alam dan budaya di sejumlah objek wisata Pulau Buton. Aplikasi ini ditujukan untuk wisatawan yang ingin mengetahui sejumlah objek wisata di Pulau Buton. " android:justificationMode="1"/>
+        <TextView android:textSize="17dp" android:textStyle="bold" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="\9\9\9 TOURISMAR adalah sebuah aplikasi Augmented Reality yang dikembangkan oleh ARSI dengan Nim 2060059 yang merupakan salah satu mahasiswa jurusan Teknik Informatika Universitas Dayanu Ikhsanuddin Kota Baubau angkatan XX. Aplikasi ini dibuat menggunakan software Android Studio, Unity, Bahasa Pemrograman Java, dan Database MySQL serta Vuforia.  " android:justificationMode="1"/>
+    </LinearLayout>
+</ScrollView>

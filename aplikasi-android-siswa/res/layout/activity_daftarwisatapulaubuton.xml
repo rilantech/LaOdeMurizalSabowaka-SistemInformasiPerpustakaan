@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar2" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/judul_halaman" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Daftar Wisata Kota Baubau"/>
+        </androidx.appcompat.widget.Toolbar>
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:rowCount="1" android:columnCount="1" android:columnOrderPreserved="false" android:alignmentMode="alignMargins">
+            <androidx.cardview.widget.CardView android:id="@+id/wisata1" android:layout_width="0dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_wisata1" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Pantai Nirwana" android:textAlignment="center"/>
+                    <ImageView android:id="@+id/gambarwisata1" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/pantainirwana" android:scaleType="fitXY"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/wisata2" android:layout_width="0dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_wisata2" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Benteng Keraton" android:textAlignment="center"/>
+                    <ImageView android:id="@+id/gambarwisata2" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/bentengkeraton" android:scaleType="fitXY"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/wisata3" android:layout_width="0dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_wisata3" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Goa Lakasa" android:textAlignment="center"/>
+                    <ImageView android:id="@+id/gambarwisata3" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/goalakasa" android:scaleType="fitXY"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/wisata4" android:layout_width="0dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:id="@+id/tv_wisata4" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Batu Sori" android:textAlignment="center"/>
+                    <ImageView android:id="@+id/gambarwisata4" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/batusori" android:scaleType="fitXY"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
