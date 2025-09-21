@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Petunjuk"/>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="350dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginTop="10dp" android:src="@drawable/ikon"/>
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tourism AR" android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 1" android:textAlignment="center"/>
+                <TextView android:textSize="15dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Buka Aplikasi" android:textAlignment="center"/>
+                <ImageView android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="14dp" android:src="@drawable/ikon"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 2" android:textAlignment="center"/>
+                <TextView android:textSize="17dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Setelah masuk di aplikasi Torism AR tekan Mulai untuk memilih kota/kabupaten yang ingin di kunjungi" android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 3" android:textAlignment="center"/>
+                <TextView android:textSize="17dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Setelah memilih salah satu kota/kabupaten maka akan ditampilkan daftar wisata " android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 4" android:textAlignment="center"/>
+                <TextView android:textSize="17dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Setelah itu pilih wisata yang ingin dikunjungi " android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 5" android:textAlignment="center"/>
+                <TextView android:textSize="17dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Kemudian akan tampil menu informasi yang berisi deskripsi mengenai wisata" android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:layout_gravity="center" android:layout_width="300dp" android:layout_height="150dp" android:layout_columnWeight="1" sweet:cardBackgroundColor="@color/abuabu" sweet:cardCornerRadius="10dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Langkah 6" android:textAlignment="center"/>
+                <TextView android:textSize="17dp" android:textStyle="bold" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Jika ingin melihat lokasi maka tekan tombol lokasi dan jika ingin melihat 3D dari wisata maka tekan tombol 3D " android:textAlignment="center"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="538dp">
+        <ImageView android:id="@+id/imageView2" android:layout_width="match_parent" android:layout_height="100dp" android:src="@drawable/ic_baseline_add_a_photo_24" sweet:layout_constraintBottom_toBottomOf="0" sweet:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="20dp" android:textColor="@color/white" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Aplikasi Pariwisata" sweet:layout_constraintBottom_toBottomOf="0" sweet:layout_constraintTop_toBottomOf="@+id/imageView2" sweet:layout_constraintVertical_bias="0.187"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

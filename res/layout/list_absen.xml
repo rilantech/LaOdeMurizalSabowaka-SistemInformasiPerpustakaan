@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:padding="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textStyle="bold" android:gravity="center" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Tanggal"/>
+    <TextView android:gravity="center" android:id="@+id/tanggal" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Tanggal"/>
+    <TextView android:textStyle="bold" android:gravity="center" android:background="@color/teal_700" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Absen Masuk"/>
+    <TextView android:gravity="center" android:id="@+id/absenmasuk" android:background="@color/teal_700" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:text="Belum Absen"/>
+    <TextView android:textStyle="bold" android:gravity="center" android:background="#ffeb3b" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Absen Pulang"/>
+    <TextView android:gravity="center" android:id="@+id/absenpulang" android:background="#ffeb3b" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Belum Absen"/>
+</LinearLayout>

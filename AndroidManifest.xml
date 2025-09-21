@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" android:versionCode="1" android:versionName="1.0" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" package="com.example.aplikasiperpustakaan" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="com.zebra.provider.READ"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC"/>
+    <permission android:name="com.example.aplikasiperpustakaan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.example.aplikasiperpustakaan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
+    <application android:theme="@style/Theme.Aplikasiabsensi" android:label="Si Perpus" android:icon="@drawable/logokemendikbud" android:allowClearUserData="true" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true" android:extractNativeLibs="false" android:fullBackupContent="@xml/backup_rules" android:usesCleartextTraffic="true" android:roundIcon="@drawable/logokemendikbud" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:dataExtractionRules="@xml/data_extraction_rules">
+        <activity android:name="com.example.aplikasiperpustakaan.Detail_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Detail_pengembalian_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Detail_peminjaman_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halaman_tentang_aplikasi" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halaman_data_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halaman_data_pengembalian_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halaman_data_peminjaman_buku" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Absen_pengunjung" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halaman_utama_app" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halamanbiodata" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.LengkapiBiodata" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:theme="@style/Theme.HapusSplashScreen" android:name="com.example.aplikasiperpustakaan.Halaman_splashscreen" android:exported="true" android:launchMode="singleInstance" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.lokasi" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:theme="@style/Theme.HapusSplashScreen" android:name="com.example.aplikasiperpustakaan.HalamanSplash1" android:exported="true" android:noHistory="true" ndroid:launchMode="singleInstance">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Menu2" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Menu1" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Daftarwisata" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Petunjuk" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Tentang" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Informasiwisata" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Daftarwisatapulaubuton" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.HalUtama" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Daftarberita" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.DetailPengaduan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Daftarpengaduan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.DetailTagihan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Tambahtagihan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Daftartagihan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.DetailPelanggan" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.datapelanggan" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.HalamanDataAbsensi" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.ScanQrcode" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.ScanQrcodeAbsenPulang" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Halamanutama" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.HalamanRegistrasi" android:exported="false">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.HalamanLogin" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.Simpan_data" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <activity android:name="com.example.aplikasiperpustakaan.MainActivity" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value=""/>
+        </activity>
+        <receiver android:name="com.example.aplikasiperpustakaan.MyReceiver" android:exported="false"/>
+        <service android:label="@string/app_name" android:name="com.example.aplikasiperpustakaan.NotificationService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.aplikasiperpustakaan.NotificationService"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/Dexter.Internal.Theme.Transparent" android:name="com.karumi.dexter.DexterActivity"/>
+        <service android:name="net.gotev.uploadservice.UploadService" android:enabled="true" android:exported="false" android:foregroundServiceType="1"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <provider android:name="com.squareup.picasso.PicassoProvider" android:exported="false" android:authorities="com.example.aplikasiperpustakaan.com.squareup.picasso"/>
+        <provider android:name="androidx.startup.InitializationProvider" android:exported="false" android:authorities="com.example.aplikasiperpustakaan.androidx-startup">
+            <meta-data android:name="androidx.emoji2.text.EmojiCompatInitializer" android:value="androidx.startup"/>
+            <meta-data android:name="androidx.lifecycle.ProcessLifecycleInitializer" android:value="androidx.startup"/>
+        </provider>
+    </application>
+</manifest>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ndroid="http://schemas.android.com/apk/distribution" xmlns:sweet="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="25dp" android:textStyle="bold" android:textColor="@color/white" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Daftar Kota Dan Kabupaten "/>
+        </androidx.appcompat.widget.Toolbar>
+        <VideoView android:id="@+id/video" android:layout_width="903dp" android:layout_height="250dp"/>
+        <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:rowCount="1" android:columnCount="2" android:columnOrderPreserved="false" android:alignmentMode="alignMargins">
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewbaubau" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kota Baubau" android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/patunnaga" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewbuton" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kabupaten Buton" android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/tuguaspal" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewbutonselatan" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kab.Buton Selatan" android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/tugubusel" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewbutontengah" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kab.Buton Tengah " android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/gerbangbuteng" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewwakatobi" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kab.Wakatobi" android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/tamannasionalwakatobi" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:id="@+id/cardviewbutonutara" android:layout_width="0dp" android:layout_height="130dp" android:layout_columnWeight="1" sweet:cardCornerRadius="5dp" sweet:cardElevation="5dp" sweet:cardUseCompatPadding="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="20dp" android:textStyle="bold" android:textColor="@color/white" android:background="@color/biru" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Kab.Buton Utara " android:textAlignment="center"/>
+                    <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bentengkulisusu" android:scaleType="centerCrop"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
