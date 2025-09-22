@@ -24,3 +24,6 @@ Sistem yang dibangun terdiri atas 2 produk yaitu aplikasi website dan android. A
 
 ## Spefikasi Smartphone Untuk Instal Aplikasi Android
 - Sistem Operasi: Android 11
+
+## Detail Menu-Menu
+Bisa dilihat di file Sistem Informasi Perpustakaan.PDF : https://github.com/rilantech/LaOdeMurizalSabowaka-SistemInformasiPerpustakaan/blob/main/Sistem%20Informasi%20Perpustakaan.pdf
